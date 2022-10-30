@@ -1,0 +1,22 @@
+.page{
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+}
+.child{
+  display: block;
+}
+.search{
+  border: none;
+  background-color: rgb(213, 213, 213);
+  height: 30px;
+  border-radius: 10px;
+}
+.btn{
+  margin: 10px;
+  background-color: blueviolet;
+  border: none;
+  color: white;
+  padding: 15px;
+  border-radius: 10px;
+}
