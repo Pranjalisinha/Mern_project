@@ -1,4 +1,4 @@
-.page{
+/* .page{
   width: 100%;
   text-align: center;
   justify-content: center;
@@ -19,4 +19,49 @@
   color: white;
   padding: 15px;
   border-radius: 10px;
+} */
+.container{
+  display: flex;
+}
+.product{
+  text-align: center;
+  width:60%;
+  border: 10px solid grey
+}
+.content{
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 20px;
+  background-color: rgb(206, 206, 206);
+  color: white;
+}
+.count{
+  display: flex;
+  background-color: rgb(83, 83, 252);
+  border-radius: 10px;
+}
+.btn{
+  background-color: rgb(83, 83, 252);
+  border: none;
+  color: white;
+  border-radius: 10px;
+}
+.cart{
+  margin-left: 20px;
+  width: 35%;
+  border: 10px solid grey
+}
+.cardC{
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(175, 174, 174);
+  color: white;
+  margin: 10px;
+}
+.Total{
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(175, 174, 174);
+  color: white;
+  margin: 10px;
 }

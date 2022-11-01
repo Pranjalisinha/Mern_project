@@ -1,11 +1,12 @@
 import './App.css';
-import Comment from './component/comment';
+// import Comment from './component/comment';
+import ProductAndCart from './component/productansCart';
 
 function App() {
   return (
    <>
    <div>
-    <Comment/>
+    <ProductAndCart/>
     </div>
    </>
   );
